@@ -1,10 +1,11 @@
 package designpatterns.creationalpatterns.singleton;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class SingletonTest {
 
-    @org.junit.Test
+    @Test
     public void testGetInstance() {
         Singleton expResult = Singleton.getInstance();
         Singleton result = Singleton.getInstance();
